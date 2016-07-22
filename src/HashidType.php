@@ -62,5 +62,10 @@ class HashidType extends IntegerType
 
         return $connection;
     }
+
+    public function requiresSQLCommentHint(AbstractPlatform $platform)
+    {
+        return true;
+    }
 }
 
