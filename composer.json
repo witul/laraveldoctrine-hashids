@@ -10,9 +10,9 @@
   ],
   "homepage": "https://github.com/blake/laraveldoctrine-hashids",
   "require": {
-    "php": ">=5.5.9",
-    "vinkla/hashids": "~2.0",
-    "doctrine/dbal": "~2.5.0"
+    "php": ">=7.1.0",
+    "vinkla/hashids": "^6.0",
+    "doctrine/dbal": "^2.8"
   },
   "suggest": {
     "laravel-doctrine/orm": "This is the recommended way of integrated Doctrine with Laravel"
